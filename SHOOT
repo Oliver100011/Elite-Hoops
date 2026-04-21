@@ -1,0 +1,5 @@
+function move(player, up, down, left, right) {
+  if (keys[up]) player.y -= player.build.speed;
+  if (keys[down]) player.y += player.build.speed;
+  if (keys[left]) player.x -= player.build.speed;
+  if (keys[right]) player.x += player.build.speed;
