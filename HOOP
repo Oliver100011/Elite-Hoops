@@ -1,2 +1,8 @@
   ctx.fillStyle = "red";
   ctx.fillRect(850, 200, 10, 80);
+
+  drawPlayer(p1, "blue");
+  drawPlayer(p2, "cyan");
+
+  team.forEach(t => drawPlayer(t, "green"));
+  enemies.forEach(e => drawPlayer(e, "black"));
