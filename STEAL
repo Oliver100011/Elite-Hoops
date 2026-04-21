@@ -1,0 +1,7 @@
+function shoot(player) {
+  if (!player.hasBall) return;
+  let success = Math.random() < player.meter * player.build.shoot;
+  alert(success ? "🏀 SCORE!" : "❌ MISS");
+  player.hasBall = false;
+  player.meter = 0;
+}
