@@ -1,0 +1,5 @@
+const builds = {
+  shooter: { shoot: 0.9, steal: 0.3, speed: 2.5 },
+  defender: { shoot: 0.5, steal: 0.9, speed: 2 },
+  balanced: { shoot: 0.7, steal: 0.7, speed: 2.2 }
+};
