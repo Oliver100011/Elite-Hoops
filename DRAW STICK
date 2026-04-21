@@ -1,0 +1,13 @@
+function drawPlayer(p, color) {
+  ctx.strokeStyle = color;
+  ctx.beginPath();
+  ctx.arc(p.x, p.y - 10, 5, 0, Math.PI * 2);
+  ctx.moveTo(p.x, p.y - 5);
+  ctx.lineTo(p.x, p.y + 10);
+  ctx.moveTo(p.x - 5, p.y);
+  ctx.lineTo(p.x + 5, p.y);
+  ctx.moveTo(p.x, p.y + 10);
+  ctx.lineTo(p.x - 5, p.y + 20);
+  ctx.moveTo(p.x, p.y + 10);
+  ctx.lineTo(p.x + 5, p.y + 20);
+  ctx.stroke();
