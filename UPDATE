@@ -1,0 +1,8 @@
+function steal(player) {
+  enemies.forEach(e => {
+    let d = Math.hypot(player.x - e.x, player.y - e.y);
+    if (d < 40 && Math.random() < player.build.steal) {
+      player.hasBall = true;
+    }
+  });
+}
