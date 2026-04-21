@@ -1,0 +1,8 @@
+  [p1, p2].forEach(p => {
+    if (p.hasBall) {
+      ctx.beginPath();
+      ctx.arc(p.x + 10, p.y, 4, 0, Math.PI * 2);
+      ctx.fillStyle = "orange";
+      ctx.fill();
+    }
+  });
