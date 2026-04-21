@@ -1,0 +1,8 @@
+  enemies.forEach(e => {
+    let target = p1.hasBall ? p1 : p2;
+    if (e.x > target.x) e.x -= 1;
+    if (e.x < target.x) e.x += 1;
+    if (e.y > target.y) e.y -= 1;
+    if (e.y < target.y) e.y += 1;
+  });
+}
