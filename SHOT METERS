@@ -1,0 +1,7 @@
+  ctx.fillStyle = "white";
+  ctx.fillRect(50, 450, 200, 10);
+  ctx.fillRect(650, 450, 200, 10);
+
+  ctx.fillStyle = "lime";
+  ctx.fillRect(50, 450, 200 * p1.meter, 10);
+  ctx.fillRect(650, 450, 200 * p2.meter, 10);
