@@ -1,0 +1,2 @@
+  ctx.fillStyle = "red";
+  ctx.fillRect(850, 200, 10, 80);
