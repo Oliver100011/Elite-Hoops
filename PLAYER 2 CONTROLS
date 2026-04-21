@@ -1,0 +1,5 @@
+  move(p2, "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight");
+  if (keys["Enter"]) { p2.charging = true; p2.meter += 0.02; }
+  else if (p2.charging) { shoot(p2); p2.charging = false; }
+
+  if (keys["/"]) steal(p2);
